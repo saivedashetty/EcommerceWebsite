@@ -1,0 +1,266 @@
+*{
+    padding: 0vw;
+    margin: 0vw;
+}
+body{
+    width:100%;
+    height: 290vh;
+    display: flex;
+    flex-direction: column;
+    /* background-color: antiquewhite; */
+}
+#textbar{
+    width:100%;
+    height: 4vw;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#butt
+{
+    padding-left: 3vw;
+    padding-top: 0.5vw;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color:white;
+}
+#text{
+    color:white;
+    font-size: 1vw;
+}
+.profile{
+    width:8vw;
+    height: 3vw;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#profile2{
+    font-weight: bold;
+    font-size: 1.2vw;
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+#profile3{
+    width:20vw;
+    height: 15vw;
+    background-color:skyblue;
+    border-radius: 0.5vw;
+    position: absolute;
+    top:3vw;
+    right: 3vw;
+    display: none;
+}
+#logout{
+    width:6vw;
+    height: 2vw;
+    background-color: blue;
+    border-radius: 0.2vw;
+    margin-top: 2vw;
+    margin-left: 5vw;
+    font-size: 1.2vw;
+}
+#user1,#mobile1,#email1{
+    padding: 0.8vw;
+    font-size: 1.4vw;
+    font-weight: lighter;
+}
+.profile:hover #profile3{
+    display: block;
+}
+#textbar1{
+    width:100%;
+    height:4vw;
+    background-color:white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    position: sticky;
+    top:0vw;
+    z-index: 10;
+}
+.textcol1{
+    font-weight: bold;
+}
+.textcol2{
+    font-weight: bold;
+    font-size: 1.2vw;
+    text-transform: uppercase;
+}
+.textcol1:hover{
+    color:white;
+    background-color: black;
+}
+.textcol{
+    color: black;
+    font-size: 1.2vw;
+    cursor: pointer;
+}
+li{
+    list-style-type: none;
+    font-size: 1.2vw;
+    font-weight: 1vw;
+    color: black;
+    padding: 1vw;
+}
+#subli{
+    display: flex;
+}
+#subli{
+    width:100%;
+    height: 40vw;
+    background-color: white;
+    position: absolute;
+    top:3.5vw;
+    left:0vw;
+    display: none;
+}
+#sublist1{
+    position: absolute;
+    top: 0vw;
+    left:22vw;
+}
+#sublist2{
+    position: absolute;
+    top: 0vw;
+    left:48vw;
+}
+#sublist3{
+    position: absolute;
+    top: 0vw;
+    left:72vw;
+}
+#main:hover #subli{
+    display: block;
+}
+#bird{
+    font-size: 2.2vw;
+    font-style: italic;
+    padding-left: 14vw;
+    padding-right: 9vw;
+}
+#A{
+    background-color: blue;
+    width:3vw;
+    height: 3vw;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-a{
+    font-size: 1.6vw;
+    color: black;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.fa-cart-shopping{
+    color: black;
+}
+.fa-circle-question{
+    color: black;
+}
+a{
+    color: transparent;
+}
+#websites{
+    width:100%;
+    height:40vw;
+    background-color: rgb(0,0,0,0.7);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#web{
+    width:50%;
+    height:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+#web1{
+    width:50%;
+    height:70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.site{
+    color:white;
+    font-size: 2.2vw;
+}
+.brand{
+    width:20vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 8vw;
+}
+.fa-brands,.fa-xmark{
+    font-size: 2.8vw;
+}
+#how{
+    width:100%;
+    height: 35vw;
+    background-color: rgb(0,0,0,0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.helps,#help1{
+    color:white;
+    font-size: 1.2vw;
+    padding: 0.5vw;
+}
+#help3{
+    width:100%;
+    height:8vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#help2{
+    width:70%;
+    height:3vw;
+}
+#freq{
+        width:100%;
+        height:8vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+#conmain{
+    width:100%;
+    height: 65vw;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 4.5vw;
+    column-gap: 6vw;
+}
+.subcon1{
+    width:40%;
+    height:30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: justify;
+}
+.text1{
+    font-weight: lighter;
+    text-align: justify;
+    font-size: 1.2vw;
+}
+.text2{
+    font-size: 1.6vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

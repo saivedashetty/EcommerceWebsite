@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="./signup.css">
+    <script src="./signup.js" defer></script>
+</head>
+<body>
+    <div id="con1"></div>
+    <div id="container">
+        <div class="sub">
+                <input type="text" placeholder=" Enter the Name" id="firstName">
+        </div>
+        <div class="sub">
+                <input type="text" placeholder="Enter the Username" id="LastName">
+        </div>
+        <div class="sub passw">
+                <input type="text" placeholder="Enter the Mobile Number" id="Mobile" oninput="fun4()">
+                <h5 id="message2"></h5>
+        </div>
+        <div class="sub">
+                <input type="email" placeholder="Enter the email" id="email">
+        </div>
+        <div class="sub passw">
+                <input type="password" placeholder="Enter the password" id="password" oninput="fun2()">
+                <h5 id="message"></h5>
+        </div>
+       <div class="sub" id="passw1">
+                <input type="password" placeholder="Re-confirm password" title="Password contain atleast one alphabet,digit,special character" id="repassword" oninput="fun3()">
+                <h5 id="message1"></h5>
+         </div>
+         <div class="sub">
+                    <input type="button" value="submit" id="submit" onclick="fun()">
+         </div>
+    </div>
+    <div id="account">
+        <h4>Already have an Account</h4>
+        <a href="./login.html" target="_self"><h3>Login</h3></a>
+     </div>
+    <div id="loginpage">
+        <h1 class="ever" id="a">S</h1>
+        <h1 class="ever" id="b">I</h1>
+        <h1 class="ever" id="c">G</h1>
+        <h1 class="ever" id="d">N</h1>
+        <h1 class="ever" id="e">U</h1>
+        <h1 class="ever" id="f">P</h1>
+    </div>
+</body>
+</html>
