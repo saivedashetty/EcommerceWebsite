@@ -1,4 +1,6 @@
 # EcommerceWebsite
-The project is about shoe mart,I take the reference of AllBirds website.It is a responsive page.The user can create account by using signup and then login .After Login the page redirected to home page.Home page contains products,profile,cart.User can choose products page and user can add products to cart and also he can remove the products from cart.
-User can also have options like men and women shopping.User can also redirected to socks page.
-The project developed by using technologies HTML,CSS,Javascript and AJAX.I used fakeStorage Api ,it is free Api available in internet.I fetch data like product images,product price,product rating from Api. 
+The project is an e-commerce website called Shoe Mart, inspired by the layout of AllBirds' website. It is fully responsive, allowing seamless browsing across devices. Users can create an account through the signup feature and subsequently log in. Upon login, they are redirected to the homepage, which features product listings, a user profile section, and a shopping cart.
+Users can navigate through different product categories such as men's and women's shoes. They can add products to their cart and remove them as needed. Additionally, there is a dedicated section for socks where users can explore and purchase various sock products.
+The project is developed using HTML, CSS, JavaScript, and AJAX technologies. Data for product images, prices, and ratings is fetched from a free API called fakeStorage.
+
+
